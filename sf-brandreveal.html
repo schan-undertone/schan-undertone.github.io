@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello GPT</title>
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script>
+      window.googletag = window.googletag || {cmd: []};
+      googletag.cmd.push(function() {
+        googletag
+            .defineSlot(
+                '/1083753', [300, 250], 'banner-ad')
+            .addService(googletag.pubads())
+            .setTargeting("partner","undertone_brandreveal");
+        googletag.enableServices();
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Undertone Brand Reveal</h1>
+    <div id="banner-ad">
+      <script>
+        googletag.cmd.push(function() {
+          googletag.display('banner-ad');
+        });
+      </script>
+    </div>
+  </body>
+</html>
