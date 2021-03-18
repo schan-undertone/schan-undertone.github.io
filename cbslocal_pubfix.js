@@ -41,10 +41,14 @@ if (window.SFscreenshift) {
     SFscreenshift.stayInContainer('#page-wrap');
 // alert("Hi");
     	SFscreenshift.fixedOffset(0);
-		SFscreenshift.style('top', '0px', 'banner');
-    	// SFscreenshift.style('z-index', '-1', 'banner');
+		// SFscreenshift.style('top', '30px', 'banner');
+		SFscreenshift.style('top', '40px', 'collapsed');
+		// alert("Hi");
+    	SFscreenshift.style('z-index', '99', 'banner');
 	// SFscreenshift.style('z-index', '1032', 'collapsed');
 	// SFscreenshift.anchor('#main-navigation');
+	SFscreenshift.anchor('#page-header');
+	// SFscreenshift.anchor('.wrapper');
 	if (!window._spads) {
 	  window._spads = {};
 	}
